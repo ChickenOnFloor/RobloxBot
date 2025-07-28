@@ -23,7 +23,7 @@ This is the backend API server for the BGSI Pet Trading Bot system.
    Create a `.env` file in the backend directory:
    ```env
    # MongoDB Connection
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database?retryWrites=true&w=majority
+   MONGODB_URI=mongo_api_url
    
    # Server Configuration
    PORT=3000
